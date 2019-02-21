@@ -1,4 +1,4 @@
 {
   "version": 2,
-  "builds": [{ "src": "web/index.php", "use": "@now/php" }]
+  "builds": [{ "src": "web/index.php", "use": "@now/php", "config": { "maxLambdaSize": "50mb" } }]
 }

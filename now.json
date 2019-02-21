@@ -1,0 +1,4 @@
+{
+  "version": 2,
+  "builds": [{ "src": "web/index.php", "use": "@now/php" }]
+}
